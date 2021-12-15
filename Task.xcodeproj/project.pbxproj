@@ -14,6 +14,18 @@
 		E55AEBD2276A21D70032AEA0 /* Task.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E55AEBD0276A21D70032AEA0 /* Task.xcdatamodeld */; };
 		E55AEBD4276A21D80032AEA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E55AEBD3276A21D80032AEA0 /* Assets.xcassets */; };
 		E55AEBD7276A21D80032AEA0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E55AEBD5276A21D80032AEA0 /* LaunchScreen.storyboard */; };
+		E55AEBE5276A288C0032AEA0 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55AEBE4276A288C0032AEA0 /* HomeViewModel.swift */; };
+		E55AEBE7276A28F60032AEA0 /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55AEBE6276A28F60032AEA0 /* Images.swift */; };
+		E55AEBE9276A2A280032AEA0 /* Dynamic.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55AEBE8276A2A280032AEA0 /* Dynamic.swift */; };
+		E55AEBEB276A2BB00032AEA0 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55AEBEA276A2BB00032AEA0 /* Repository.swift */; };
+		E55AEBEE276A2E2D0032AEA0 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = E55AEBED276A2E2D0032AEA0 /* Alamofire */; };
+		E55AEBF1276A2EA10032AEA0 /* MBProgressHUD in Frameworks */ = {isa = PBXBuildFile; productRef = E55AEBF0276A2EA10032AEA0 /* MBProgressHUD */; };
+		E55AEBF4276A2EB30032AEA0 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = E55AEBF3276A2EB30032AEA0 /* Kingfisher */; };
+		E55AEBF6276A2ED80032AEA0 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55AEBF5276A2ED80032AEA0 /* NetworkService.swift */; };
+		E55AEBF9276A2F300032AEA0 /* NetworkConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55AEBF8276A2F300032AEA0 /* NetworkConstants.swift */; };
+		E55AEBFB276A69FC0032AEA0 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55AEBFA276A69FC0032AEA0 /* CoreDataManager.swift */; };
+		E55AEBFD276A719E0032AEA0 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55AEBFC276A719E0032AEA0 /* DetailsViewController.swift */; };
+		E55AEBFF276A71CE0032AEA0 /* DetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55AEBFE276A71CE0032AEA0 /* DetailsViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +38,15 @@
 		E55AEBD3276A21D80032AEA0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E55AEBD6276A21D80032AEA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E55AEBD8276A21D80032AEA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E55AEBE4276A288C0032AEA0 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		E55AEBE6276A28F60032AEA0 /* Images.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
+		E55AEBE8276A2A280032AEA0 /* Dynamic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dynamic.swift; sourceTree = "<group>"; };
+		E55AEBEA276A2BB00032AEA0 /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
+		E55AEBF5276A2ED80032AEA0 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		E55AEBF8276A2F300032AEA0 /* NetworkConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkConstants.swift; sourceTree = "<group>"; };
+		E55AEBFA276A69FC0032AEA0 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		E55AEBFC276A719E0032AEA0 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		E55AEBFE276A71CE0032AEA0 /* DetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +54,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E55AEBF4276A2EB30032AEA0 /* Kingfisher in Frameworks */,
+				E55AEBF1276A2EA10032AEA0 /* MBProgressHUD in Frameworks */,
+				E55AEBEE276A2E2D0032AEA0 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,16 +82,73 @@
 		E55AEBC6276A21D70032AEA0 /* Task */ = {
 			isa = PBXGroup;
 			children = (
+				E55AEBE3276A255B0032AEA0 /* Model */,
+				E55AEBE2276A25510032AEA0 /* ViewModel */,
+				E55AEBE1276A25440032AEA0 /* View */,
+				E55AEBE0276A252F0032AEA0 /* Application */,
+				E55AEBDF276A25170032AEA0 /* NetworkService */,
+				E55AEBDE276A25010032AEA0 /* DataRepository */,
+			);
+			path = Task;
+			sourceTree = "<group>";
+		};
+		E55AEBDE276A25010032AEA0 /* DataRepository */ = {
+			isa = PBXGroup;
+			children = (
+				E55AEBEA276A2BB00032AEA0 /* Repository.swift */,
+			);
+			path = DataRepository;
+			sourceTree = "<group>";
+		};
+		E55AEBDF276A25170032AEA0 /* NetworkService */ = {
+			isa = PBXGroup;
+			children = (
+				E55AEBF5276A2ED80032AEA0 /* NetworkService.swift */,
+				E55AEBF8276A2F300032AEA0 /* NetworkConstants.swift */,
+			);
+			path = NetworkService;
+			sourceTree = "<group>";
+		};
+		E55AEBE0276A252F0032AEA0 /* Application */ = {
+			isa = PBXGroup;
+			children = (
 				E55AEBC7276A21D70032AEA0 /* AppDelegate.swift */,
 				E55AEBC9276A21D70032AEA0 /* SceneDelegate.swift */,
-				E55AEBCB276A21D70032AEA0 /* ViewController.swift */,
 				E55AEBCD276A21D70032AEA0 /* Main.storyboard */,
 				E55AEBD3276A21D80032AEA0 /* Assets.xcassets */,
 				E55AEBD5276A21D80032AEA0 /* LaunchScreen.storyboard */,
 				E55AEBD8276A21D80032AEA0 /* Info.plist */,
 				E55AEBD0276A21D70032AEA0 /* Task.xcdatamodeld */,
 			);
-			path = Task;
+			path = Application;
+			sourceTree = "<group>";
+		};
+		E55AEBE1276A25440032AEA0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E55AEBCB276A21D70032AEA0 /* ViewController.swift */,
+				E55AEBFC276A719E0032AEA0 /* DetailsViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E55AEBE2276A25510032AEA0 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				E55AEBE4276A288C0032AEA0 /* HomeViewModel.swift */,
+				E55AEBE8276A2A280032AEA0 /* Dynamic.swift */,
+				E55AEBFE276A71CE0032AEA0 /* DetailsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		E55AEBE3276A255B0032AEA0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E55AEBE6276A28F60032AEA0 /* Images.swift */,
+				E55AEBFA276A69FC0032AEA0 /* CoreDataManager.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -86,6 +167,11 @@
 			dependencies = (
 			);
 			name = Task;
+			packageProductDependencies = (
+				E55AEBED276A2E2D0032AEA0 /* Alamofire */,
+				E55AEBF0276A2EA10032AEA0 /* MBProgressHUD */,
+				E55AEBF3276A2EB30032AEA0 /* Kingfisher */,
+			);
 			productName = Task;
 			productReference = E55AEBC4276A21D70032AEA0 /* Task.app */;
 			productType = "com.apple.product-type.application";
@@ -114,6 +200,11 @@
 				Base,
 			);
 			mainGroup = E55AEBBB276A21D70032AEA0;
+			packageReferences = (
+				E55AEBEC276A2E2D0032AEA0 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				E55AEBEF276A2EA10032AEA0 /* XCRemoteSwiftPackageReference "MBProgressHUD" */,
+				E55AEBF2276A2EB30032AEA0 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = E55AEBC5276A21D70032AEA0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -142,9 +233,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				E55AEBD2276A21D70032AEA0 /* Task.xcdatamodeld in Sources */,
+				E55AEBE7276A28F60032AEA0 /* Images.swift in Sources */,
+				E55AEBF9276A2F300032AEA0 /* NetworkConstants.swift in Sources */,
 				E55AEBCC276A21D70032AEA0 /* ViewController.swift in Sources */,
+				E55AEBFF276A71CE0032AEA0 /* DetailsViewModel.swift in Sources */,
+				E55AEBEB276A2BB00032AEA0 /* Repository.swift in Sources */,
+				E55AEBF6276A2ED80032AEA0 /* NetworkService.swift in Sources */,
+				E55AEBE9276A2A280032AEA0 /* Dynamic.swift in Sources */,
 				E55AEBC8276A21D70032AEA0 /* AppDelegate.swift in Sources */,
+				E55AEBE5276A288C0032AEA0 /* HomeViewModel.swift in Sources */,
 				E55AEBCA276A21D70032AEA0 /* SceneDelegate.swift in Sources */,
+				E55AEBFB276A69FC0032AEA0 /* CoreDataManager.swift in Sources */,
+				E55AEBFD276A719E0032AEA0 /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,7 +394,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Task/Info.plist;
+				INFOPLIST_FILE = Task/Application/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -309,7 +409,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -321,7 +421,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Task/Info.plist;
+				INFOPLIST_FILE = Task/Application/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -336,7 +436,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -362,6 +462,51 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E55AEBEC276A2E2D0032AEA0 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		E55AEBEF276A2EA10032AEA0 /* XCRemoteSwiftPackageReference "MBProgressHUD" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/jdg/MBProgressHUD.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		E55AEBF2276A2EB30032AEA0 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E55AEBED276A2E2D0032AEA0 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E55AEBEC276A2E2D0032AEA0 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		E55AEBF0276A2EA10032AEA0 /* MBProgressHUD */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E55AEBEF276A2EA10032AEA0 /* XCRemoteSwiftPackageReference "MBProgressHUD" */;
+			productName = MBProgressHUD;
+		};
+		E55AEBF3276A2EB30032AEA0 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E55AEBF2276A2EB30032AEA0 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		E55AEBD0276A21D70032AEA0 /* Task.xcdatamodeld */ = {
